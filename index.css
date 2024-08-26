@@ -57,6 +57,19 @@ strong {
     flex-direction: column;
 
 }
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.container__informaciones {
+    flex: 1;
+    padding: 3rem;
+    gap: 82px;
+}
+
 .container__botones {
     display: flex;
     gap: 2em;
