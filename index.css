@@ -72,7 +72,19 @@ strong {
     margin-top: 2rem;
     cursor: pointer;
 
-}.container {                
+}
+.container__boton2{
+    border-radius: 16px;
+    background: #ea0000;
+    padding: 16px 24px;
+    width: 50%;
+    font-size:1.5rem;
+    font-weight: 700;
+    border:none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.container {                
     width: 100%;/*last moodifi last 17:30*/
     height: 600px;
     display: flex;
