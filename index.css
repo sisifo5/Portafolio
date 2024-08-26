@@ -157,6 +157,14 @@ textarea {
     gap: 32px;
 
 }
+.botones2 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: 32px;
+
+}
 
 .botones_link {
     width: 50%;
