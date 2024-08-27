@@ -50,21 +50,13 @@ strong {
     justify-content: space-between;
     gap: 82px;
 }
-.presentacion2 {
-    padding: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-    border-radius: 24px;
-border: 2px solid #880606;
-}
-
 
 .contenido {
     width: 50%;
     display: flex;
     flex-direction: column;
+    border-radius: 24px;
+    border: 1px solid #041832;
 
 }
 .container__contenido {
