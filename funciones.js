@@ -10,7 +10,4 @@ function again(){// return to default settings and delete our data
     img.src = "img/male.png";//return to defaul picture
 
     //over wirte the values and restart the pseudo game
-    cleanBox();
-    conditionals();
-    document.querySelector('#restart').setAttribute('disabled','true');
 }
