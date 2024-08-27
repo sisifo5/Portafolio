@@ -22,30 +22,27 @@
 
     <header class="header">
         <nav class="menu">
-            <a class="opcion" href="">Main</a>
+            <a class="opcion" href="index.html">Main</a>
             <a class="opcion" href="Tech.html">Tecnologias</a>
             <a class="opcion" href="Encriptador.html">Encriptador de Texto</a>
         </nav>
     </header>
     <div class="container">
-    <main class="presentacion">
-        <selection  class="contenido">
+        <main class="presentacion">
+            <selection class="contenido">
+                <h1 class="title">
+                    <strong>Encriptador</strong>
+                </h1>
+                <textarea class="txt" placeholder="Frase a encriptar"> </textarea>
+                <div class="botones2">
+                    <button onclick="verifyTrys();" class="container__boton">Encriptar</button>
+                    <button onclick="again();" class="container__boton" disabled>Again!</button>
+                </div>
+                <textarea id="outputText" placeholder="texto resultante..." readonly=""></textarea>
+            </selection>
+            <img id="pic" class="pic2" title="Que estamos esperando?" src="./img/male.png">
 
-                            <section>
-                                <center>
-                                    <h1 class="title"><strrong>Encriptador</strrong></h1>
-                                </center>
-                            </section>
-                            <textarea class="txt" placeholder="Frase a encriptar"> </textarea>
-                            <div class="botones2">
-                                <button onclick="verifyTrys();" class="container__boton">Encriptar</button>
-                                <button onclick="again();" class="container__boton" disabled>Again!</button>
-                            </div>
-                            <textarea id="outputText" placeholder="texto resultante..." readonly=""></textarea>
-        </selection>
-        <img id="pic" class="pic2" title="Que estamos esperando?" src="./img/male.png">
-
-    </main>
+        </main>
     </div>
 </body>
 
