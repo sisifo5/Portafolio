@@ -97,7 +97,7 @@ strong {
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/code.png");
     background-size: 200% 100%;
-    position: relative;
+    position:absolute;
 }
 
 textarea {
