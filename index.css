@@ -21,6 +21,9 @@ strong {
 textarea {
     resize: none;
 }
+label{
+    padding: 10% 0% 0% 0%;
+}
 .header {
     padding: 2% 0% 0% 15%; /*2 de header, 0 de rigth, 0 de botom, 15 de left*/
 
