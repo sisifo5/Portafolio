@@ -45,3 +45,9 @@ function again(){// return to default settings and delete our data
 
     //over wirte the values and restart the pseudo game
 }
+document.querySelector('.neon-border').addEventListener('click', function() {
+    this.style.boxShadow = `0 0 20px rgba(255, 0, 255, 0.7),
+                            0 0 40px rgba(255, 0, 255, 0.5),
+                            0 0 60px rgba(255, 0, 255, 0.3),
+                            0 0 80px rgba(255, 0, 255, 0.1)`;
+});
