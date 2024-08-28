@@ -18,7 +18,9 @@ body {
 strong {
     color: #ea0000;
 }
-
+textarea {
+    resize: none;
+}
 .header {
     padding: 2% 0% 0% 15%; /*2 de header, 0 de rigth, 0 de botom, 15 de left*/
 
