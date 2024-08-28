@@ -16,32 +16,20 @@ function cifradoCesar(texto, desplazamiento) {//this function are similar to get
 }
 
 function encryptText() {
+    var img = document.getElementById("pic");//we GET the element my_pictures by id 
+    img.src = "img/Lovepik_com-380494303-cartoon-cyberpunk-game-movie-character-portrait-character-modeling-data-model-characters.png";//use this route for change the pic 
     let inputText = document.getElementById('inputText').value;
     let shift = 3; // Desplazamiento fijo de 3, puedes ajustarlo según sea necesario
     document.getElementById('inputText').value = '';
-    document.getElementById('outputText').value = cifradoCesar(inputText.toLowerCase().replace(/[áéíóú]/g, match => ({'á':'a','é':'e','í':'i','ó':'o','ú':'u'})[match]), shift);
+    document.getElementById('outputText').value = cifradoCesar(inputText.toLowerCase().replace(/[áéíóú]/g, match => ({ 'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u' })[match]), shift);
 }
 
 function decryptText() {
+    var img = document.getElementById("pic");
+    img.src = "img/male.png";//return to defaul picture
     let inputText = document.getElementById('outputText').value;
     let shift = 3; // Desplazamiento fijo de 3, puedes ajustarlo según sea necesario
     document.getElementById('inputText').value;
     document.getElementById('outputText').value = cifradoCesar(inputText, -shift);
 }
 
-
-
-//Las imagenes cambian  
-function encryptText() {//this function compares if the try are true and equal than secret number value
-
-    var img = document.getElementById("pic");//we GET the element my_pictures by id 
-    img.src = "img/Lovepik_com-380494303-cartoon-cyberpunk-game-movie-character-portrait-character-modeling-data-model-characters.png";//use this route for change the pic 
-}
-
-
-function decryptText(){// return to default settings and delete our data
-    var img = document.getElementById("pic");
-    img.src = "img/male.png";//return to defaul picture
-
-    //over wirte the values and restart the pseudo game
-}
