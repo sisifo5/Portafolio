@@ -61,10 +61,10 @@ strong {
 }
 
 .neon-border:hover {
-    box-shadow: 0 0 25px rgba(255, 255, 0, 0.8),
-                0 0 50px rgba(255, 255, 0, 0.6),
-                0 0 75px rgba(255, 255, 0, 0.4),
-                0 0 100px rgba(255, 255, 0, 0.2);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8),
+                0 0 50px rgba(255, 0, 0, 0.6),
+                0 0 75px rgba(255, 0, 0, 0.4),
+                0 0 100px rgba(255, 0, 0, 0.2);
     color: #fff;
 }
 
