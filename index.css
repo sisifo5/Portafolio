@@ -177,7 +177,6 @@ textarea {
 .botones2 {
     display: flex;
     justify-content: space-between;
-    padding: 30% 0% 0% 0%;
     align-items: center;
     gap: 32px;
 
