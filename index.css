@@ -35,10 +35,10 @@ textarea {
 .opcion {
     color: #ea0000;
     font-size: 1rem;
-    transition: all 2s;
     border-radius: 6px;
     text-decoration: none;
     display: block;
+    position: relative;
 }
 
 .opcion:hover {
