@@ -50,7 +50,7 @@ strong {
     border: 2px solid transparent;
     border-radius: 10px;
     text-align: center;
-    text-transform:capitalize;
+    text-transform: uppercase;
     position: relative;
     z-index: 1;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.7),
@@ -65,7 +65,7 @@ strong {
                 0 0 50px rgba(255, 0, 0, 0.6),
                 0 0 75px rgba(255, 0, 0, 0.4),
                 0 0 100px rgba(255, 0, 0, 0.2);
-    color: #fff;
+    color: #000;
 }
 
 .presentacion {
