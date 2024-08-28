@@ -140,7 +140,7 @@ textarea {
     line-height: 56px;
     font-size: 36px;
 }
-#Texthere label {
+#textHere label {
     box-sizing: border-box;
     color: var(--color-error);
     font-size: .4em;
