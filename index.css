@@ -41,13 +41,6 @@ textarea {
     position: relative;
 }
 
-.opcion:hover {
-    border: 2px solid #880606;
-    display: block;
-    transition: all 2s;
-
-}
-
 .neon-border {
     padding: 20px 40px;
     font-size: 24px;
